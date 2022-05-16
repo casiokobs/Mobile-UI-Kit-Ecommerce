@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Urbanist:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap');
+:root{
+    --base: #ffa451;
+}
+@font-face {
+    font-family: 'Brandon Grotesque light';
+    src: url('brandon-grotesque-light-58a8a4b38001d.otf');     
+}
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('brandon-grotesque-black-58a8a3e824392.otf');     
+}
+@font-face {
+    font-family: 'Brandon Grotesque 200';
+    src: url('brandon-grotesque-regular-italic-58a8a456c4724.otf');     
+}
+
+.title-load{
+    background: var(--base);
+    font-family: 'Bad Script', cursive;
+    color: white;
+    width: 154px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px 0 20px 0;
+    padding: 10px;
+    font-size: 25px;
+    margin: auto;
+    letter-spacing: -0.02em;
+    
+}
+.loading-page img{
+    display: flex;
+    margin: 60% auto auto;
+}
+.button{
+    font-family: 'Brandon Grotesque light';
+    font-size: 15px;
+    border-style: none;
+    background-color: var(--base);
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+.div-img{
+    background-color: var(--base);
+    padding: 35% 10% 10%;
+    margin-bottom: 15%;
+
+}
+.div-content{
+    margin: 10%;
+}
+.div-content p{
+    font-family: 'Brandon Grotesque light';
+    margin-bottom: 20%;
+    letter-spacing: -0.01em;
+    line-height: 25px;
+    color: #5D577E;
+}
+.input{
+    border-style: none;
+    background-color: #F3F1F1;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 15%;
+}
+::placeholder {
+    font-family: 'Brandon Grotesque light';
+    font-size: 20px;
+    color: #C2BDBD;
+    padding: 0 0 0 30px;
+}
+
+.title{
+    font-family: 'Brandon Grotesque';
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 5%;
+    color: #27214D;
+}
+.title-2{
+    font-family: 'Brandon Grotesque light';
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 5%;
+    color: #27214D;
+}
+.bold{
+    font-weight: bold;
+}
+.container{
+    margin: 30px;
+}

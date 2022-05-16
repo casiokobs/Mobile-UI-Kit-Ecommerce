@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loading-page" id="loading-page">
+        <img src="img/Vector.png" alt="">
+        <h2 class="title-load">Fruit Hub</h2>
+    </div>
+    <div class="content" id="content" style="display: none">
+        <div class="div-img">
+            <img src="img/imgbin-basket-of-fruit-cartoon-fruits-basket-still-life-illustration-zT8c0qVNxL2hbA3BBdz73AmJr-removebg-preview (1) 1.png" width="300px" height="260px" alt="">
+            <img src="img/Ellipse 1.png" alt="">
+        </div>
+        <div class="div-content">
+            <h1 class="title bold">Get The Freshest Fruit Salad Combo</h1>
+            <p >We deliver the best and freshest fruit salad in town. Order for a combo today!!!</p>
+            <button class="button" onclick="next()">Let’s Continue</button>
+        </div>
+    </div>
+    <div class="content" id="content2" style="display: none">
+        <div class="div-img">
+            <img src="img/kisspng-fruit-basket-clip-art-5aed5301d44408 1.png" width="300px" height="260px" alt="">
+            <img src="img/Ellipse 2.png" alt="">
+        </div>
+        <div class="div-content">
+            <h1 class="title bold">What is your firstname?</h1>
+            <input type="text" name="" id="" placeholder="Tony" class="input">
+            <button class="button" onclick="catalog()">Start Ordering</button>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    var i = setInterval(function () {
+        clearInterval(i);
+        document.getElementById("loading-page").style.display="none";
+        document.getElementById("content").style.display="inline";
+    }, 1000);
+    function next(){
+        document.getElementById("content").style.display="none";
+        document.getElementById("content2").style.display="block";
+    }
+    function catalog(){
+        window.location.href='catalog.html';
+    }
+</script>
