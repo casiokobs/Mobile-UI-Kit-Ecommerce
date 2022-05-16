@@ -4,15 +4,15 @@
 }
 @font-face {
     font-family: 'Brandon Grotesque light';
-    src: url('brandon-grotesque-light-58a8a4b38001d.otf');     
+    src: url('font/brandon-grotesque-light-58a8a4b38001d.otf');     
 }
 @font-face {
     font-family: 'Brandon Grotesque';
-    src: url('brandon-grotesque-black-58a8a3e824392.otf');     
+    src: url('font/brandon-grotesque-black-58a8a3e824392.otf');     
 }
 @font-face {
     font-family: 'Brandon Grotesque 200';
-    src: url('brandon-grotesque-regular-italic-58a8a456c4724.otf');     
+    src: url('font/brandon-grotesque-regular-italic-58a8a456c4724.otf');     
 }
 
 .title-load{
