@@ -116,7 +116,7 @@
 .head-product{
 margin-top: 35px;
 }
-input .head-product{
+input.head-product{
     border-style: none;
     background-color: #F3F1F1;
     width: 80%;
