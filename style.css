@@ -68,18 +68,15 @@
 .input{
     border-style: none;
     background-color: #F3F1F1;
-    width: 80%;
+    width: 100%;
     height: 55px;
     border-radius: 10px;
-    text-align: left; 
-    padding-left: 5%;
-    margin-bottom: 5%;
 }
 ::placeholder {
     font-family: 'Brandon Grotesque light';
     font-size: 20px;
     color: #C2BDBD;
-    padding: 0 0 0 30px;
+    padding: 0 0 0 18%;
 }
 
 .title{
@@ -104,14 +101,11 @@
 }
 .icon{
     position: fixed;
-    margin: 20px 0 0 2%;
+    margin: 20px 0 0 5%;
     color: #9e9e9e;
     text-align: left;
 }
-.div-products{
-    margin-top: 15%;
-    font-size: 30px;
-}
+
 .title-products{
     font-size: 25px;
     font-family: 'Brandon Grotesque light';
@@ -119,4 +113,32 @@
 ::-webkit-input-placeholder{
     font-size: 15px;
 }
-
+.head-product{
+margin-top: 35px;
+}
+.head-product input{
+    border-style: none;
+    background-color: #F3F1F1;
+    width: 80%;
+    height: 55px;
+    border-radius: 10px;
+}
+.head-product img{
+    margin-left: 5%;
+}
+.div-products{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.img-menu{
+    
+    margin-top: 30px;
+}
+.img-backet{
+    margin-left: 54%;
+    position: absolute;
+    margin-top: -180px;
+}
+.head{
+    margin-top: 50px;
+}
