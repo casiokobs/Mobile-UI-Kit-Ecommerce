@@ -29,7 +29,7 @@
     letter-spacing: -0.02em;
     
 }
-img.loading-page{
+.loading-page img{
     display: flex;
     margin: 60% auto auto;
 }
@@ -50,7 +50,7 @@ img.loading-page{
     margin-bottom: 15%;
 
 }
-img.content{
+.content img{
     max-width: 100%;
     display: block;
     margin: auto;
@@ -93,6 +93,9 @@ img.content{
     margin-bottom: 5%;
     color: #27214D;
 }
+.title-3{
+    font-family: 'Brandon Grotesque 200'
+}
 .bold{
     font-weight: bold;
 }
@@ -114,16 +117,16 @@ img.content{
     font-size: 15px;
 }
 .head-product{
-margin-top: 35px;
+margin-top: 30px;
 }
-input.head-product{
+.head-product input{
     border-style: none;
     background-color: #F3F1F1;
     width: 80%;
     height: 55px;
     border-radius: 10px;
 }
-img.head-product{
+.head-product img{
     margin-left: 5%;
 }
 .div-products{
@@ -141,4 +144,7 @@ img.head-product{
 }
 .head{
     margin-top: 50px;
+}
+.card{
+    position:absolute;
 }
