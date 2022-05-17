@@ -29,7 +29,7 @@
     letter-spacing: -0.02em;
     
 }
-.loading-page img{
+img.loading-page{
     display: flex;
     margin: 60% auto auto;
 }
@@ -50,7 +50,7 @@
     margin-bottom: 15%;
 
 }
-.content img{
+img.content{
     max-width: 100%;
     display: block;
     margin: auto;
@@ -123,7 +123,7 @@ input.head-product{
     height: 55px;
     border-radius: 10px;
 }
-.head-product img{
+img.head-product{
     margin-left: 5%;
 }
 .div-products{
